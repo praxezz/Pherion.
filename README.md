@@ -1,4 +1,4 @@
-# 🛡️ Pherion — SOC Advanced Detection & ML-Powered IDS
+# Pherion — SOC Advanced Detection & ML-Powered IDS
 
 **Pherion** is a Python network intrusion detection system (IDS) that combines a 37-rule, MITRE ATT&CK-mapped detection engine with a per-protocol machine learning baseline, alert correlation, and an optional human-in-the-loop self-healing (auto-remediation) engine. It runs as a desktop GUI (live packet stream, network graph, protocol charts) or fully headless for servers.
 
