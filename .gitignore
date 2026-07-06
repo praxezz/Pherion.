@@ -1,0 +1,29 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# ---- Pherion runtime output (never commit captures/models/DBs) ----
+pherion_data/
+*.pcap
+*.pcapng
+*.db
+*.log
+
+# ---- OS / editor cruft ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ---- Secrets / local config ----
+.env
+GeoLite2-City.mmdb
